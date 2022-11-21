@@ -1,0 +1,34 @@
+#outer {
+    position: relative;
+    border: 47px solid #ff0000;
+    border-radius: 50%;
+    /* border-color: black; */
+    background-color: #ffa500;
+    width: 400px;
+    height: 400px;
+}
+
+#middle {
+    left: 50%;
+    position: relative;
+    border: 47px solid #ffff00;
+    border-radius: 50%;
+    background-color: #008000;
+    width: 216px;
+    height: 216px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+#inner {
+    left: 50%;
+    position: relative;
+    border: 47px solid #0000ff;
+    border-radius: 50%;
+    background-color: #800080;
+    width: 57px;
+    height: 57px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
